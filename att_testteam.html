@@ -11,12 +11,15 @@
 
   <title>Selection Attributes Catalogue</title>
 
-  <!-- Custom fonts for this template-->
+  <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
-  <!-- Custom styles for this template-->
+  <!-- Custom styles for this template -->
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this page -->
+  <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
 </head>
 
@@ -25,21 +28,21 @@
   <!-- Page Wrapper -->
   <div id="wrapper">
 
-        <!-- Sidebar -->
+    <!-- Sidebar -->
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
         <div class="sidebar-brand-icon rotate-n-15">
-          <i class="fas fa-book-reader"></i>
+          <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Selection Attributes Catalogue</sup></div>
+        <div class="sidebar-brand-text mx-3">Selection Attributes Catalogue</div>
       </a>
 
       <!-- Divider -->
       <hr class="sidebar-divider my-0">
 
-      <!-- Nav Item - Dashboard -->
+            <!-- Nav Item - Dashboard -->
       <li class="nav-item active">
         <a class="nav-link" href="index.html">
           <i class="fas fa-fw fa-tachometer-alt"></i>
@@ -204,109 +207,89 @@
 
       <!-- Main Content -->
       <div id="content">
+
         <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
           
           <div class="h2 sidebar-brand-text mx-3">Selection Attributes Catalogue</sup></div>
 
         </nav>
         
-      <!-- Begin Page Content -->
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
         <div class="container-fluid">
 
-         <!-- Page Heading -->
-          <h1 class="h3 mb-3 text-gray-800">Research Team</h1>
+          <!-- Page Heading -->
+          <h1 class="h3 mb-2 text-gray-800">Test Team</h1>
 
-    
-          <!-- Content Row -->
-          <div class="row">
+          <p class="mb-4"> This category includes information related to test team characteristics; </p>
 
 
-          <!-- Content Row -->
-
-          <div class="row">
-
-            
-
-          </div>
-
-          <!-- Content Row -->
-          <div class="row">
-
-            <!-- Content Column -->
-            <div class="col-lg-6 mb-4">
-
-              <!-- Illustrations -->
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Italo Santos</h6>
-                </div>
-                <div class="card-body">
-                  <div class="text-center">
-                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 20rem;" src="img/photos/italo.jpg" alt="">
-                  </div>
-                  <p>Holds a B.Sc. degree in Digital Media and Systems and received the title "Magna Cum Laude" from the Federal University of Ceará (2017). He is currently a Master student in the Software Engineering and Information Systems field, from the Institute of Mathematics and Computer Sciences (ICMC) of the University of São Paulo (USP). Currently, he is a researcher at the Laboratory of Software Engineering (LABES), where he develops his master's research financed by the São Paulo Research Foundation (FAPESP). Areas of interest, research and work: Software Engineering; Software Testing; Testing of Concurrent Programs; Empirical Software Engineering; Software quality; Software Ecosystems.</p>
-                  <a target="_blank" rel="nofollow" href="http://lattes.cnpq.br/3059615236922803">More information &rarr;</a>
-                </div>
+          <!-- DataTales Example -->
+          <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Test Team</h6>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th>Study Reference</th>
+                      <th>Attribute</th>
+                      <th>Description</th>
+                      <th>Category</th>
+                    </tr>
+                  </thead>
+                  <tfoot>
+                    <tr>
+                      <th>Study Reference</th>
+                      <th>Attribute</th>
+                      <th>Description</th>
+                      <th>Category</th>
+                    </tr>
+                  </tfoot>
+                  <tbody>
+                    <tr>
+                      <td> S02, S08 </td>
+                      <td> Effort required </td> 
+                      <td> Indication of the effort, time and cost to execute the tasks in using the </td>
+                      <td> Test Team </td>
+                    </tr>
+                    <tr>
+                      <td> S01, S04, S05, S07, S09 </td>  
+                      <td> Experience </td>
+                      <td> Experience required to be able to apply the technique </td>  
+                      <td> Test Team </td>
+                    </tr>
+                    <tr>
+                      <td> S01, S04, S05 </td>
+                      <td> Knowledge </td>
+                      <td> Knowledge required to be able to apply the technique </td> 
+                      <td> Test Team </td>
+                    </tr>
+                    <tr>
+                      <td> S01, S04, S05, S08 </td>
+                      <td> Opinion </td>
+                      <td> General opinion about the technique after having used it </td> 
+                      <td> Test Team </td>
+                    </tr>
+                    <tr>
+                      <td> S01, S04, S05 </td>
+                      <td> Personnel  </td>
+                      <td> Personnel who worked on earlier projects </td> 
+                      <td> Test Team </td>
+                    </tr>
+                    <tr>
+                      <td> S01, S04, S05 </td>
+                      <td> Repeatability </td>  
+                      <td> Whether two people generate the same test cases </td>  
+                      <td> Test Team </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
-
-            <!-- Content Column -->
-            <div class="col-lg-6 mb-4">
-
-              <!-- Illustrations -->
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Silvana Morita Melo</h6>
-                </div>
-                <div class="card-body">
-                  <div class="text-center">
-                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 17rem;" src="img/photos/silvana.png" alt="">
-                  </div>
-                  <p>Holds a B.Sc. degree in Information Systems from Federal University of Mato Grosso do Sul - UFMS (2009) and a M.Sc. in Computer Sciene and Computational Mathematics from University of Sao Paulo - USP (2013). She is currently a Ph.D. student in the Institute of Mathematics and Computer Science (ICMC/USP) and a visiting student researcher at the University of Alabama (UA). Her research interests include software testing, concurrent programming, concurrente software testing, and empirical software engineering.</p>
-                  <a target="_blank" rel="nofollow" href="http://lattes.cnpq.br/8431784730565849">More information &rarr;</a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Content Column -->
-            <div class="col-lg-6 mb-4">
-
-              <!-- Illustrations -->
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Paulo Sergio Lopes de Souza</h6>
-                </div>
-                <div class="card-body">
-                  <div class="text-center">
-                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 20rem;" src="img/photos/paulo.png" alt="">
-                  </div>
-                  <p>Holds a joint MSc (1996) and PhD (2000) degree in Computer Science from the University of Sao Paulo (USP), Brazil. From 2010 to 2011 he was a visiting scientist at the University of Southampton, England. He is an associate professor of distributed systems at the Institute of Mathematics Science and Computer at the University of Sao Paulo (ICMC/USP, Brazil) since 2005. In the past, he was a lecturer at the Informatics Department at the State University of Ponta Grossa (UEPG), Parana, Brazil from 1991 to 2005. Currently, he has conducted research in distributed systems, parallel computing, development of high-performance  applications, software testing, and open educational resources applied to computer education.</p>
-                  <a target="_blank" rel="nofollow" href="http://lattes.cnpq.br/4254001833729264">More information &rarr;</a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Content Column -->
-            <div class="col-lg-6 mb-4">
-
-              <!-- Illustrations -->
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Simone do Rocio Senger de Souza</h6>
-                </div>
-                <div class="card-body">
-                  <div class="text-center">
-                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 20rem;" src="img/photos/simone.png" alt="">
-                  </div>
-                  <p>Holds a joint MSc (1996) and PhD (2000) degree in Computer Science from the University of Sao Paulo (USP), Brazil. From 2010 to 2011 she was a visiting scientist at the University of Southampton, England. She is an associate professor of software engineering at the Institute of Mathematics Science and Computer at the University of Sao Paulo (ICMC/USP, Brazil) since 2005. In the past, she was a lecturer at the Informatics Department at the State University of Ponta Grossa (UEPG), Parana, Brazil from 1991 to 2005. Currently, she has conducted research in concurrent software testing, structural testing, mutation testing, and software engineering experimentation.</p>
-                  <a target="_blank" rel="nofollow" href="http://lattes.cnpq.br/7137178343756327">More information &rarr;</a>
-                </div>
-              </div>
-            </div>
-
-
-
-
           </div>
 
         </div>
@@ -319,7 +302,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Italo Santos 2019</span>
+            <span>Copyright &copy; Your Website 2019</span>
           </div>
         </div>
       </footer>
@@ -331,29 +314,7 @@
   </div>
   <!-- End of Page Wrapper -->
 
-  <!-- Scroll to Top Button
-  <a class="scroll-to-top rounded" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-  </a>
-
-   Logout Modal
-  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">×</span>
-          </button>
-        </div>
-        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-        <div class="modal-footer">
-          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-          <a class="btn btn-primary" href="login.html">Logout</a>
-        </div>
-      </div>
-    </div>
-  </div>-->
+  
 
   <!-- Bootstrap core JavaScript-->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -366,11 +327,11 @@
   <script src="js/sb-admin-2.min.js"></script>
 
   <!-- Page level plugins -->
-  <script src="vendor/chart.js/Chart.min.js"></script>
+  <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+  <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
 
   <!-- Page level custom scripts -->
-  <script src="js/demo/chart-area-demo.js"></script>
-  <script src="js/demo/chart-pie-demo.js"></script>
+  <script src="js/demo/datatables-demo.js"></script>
 
 </body>
 
