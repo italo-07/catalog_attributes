@@ -244,6 +244,7 @@
                       <th>Study Reference</th>
                       <th>Attribute</th>
                       <th>Description</th>
+                      <th>Example Values</th>
                       <th>Category</th>
                     </tr>
                   </thead>
@@ -252,6 +253,7 @@
                       <th>Study Reference</th>
                       <th>Attribute</th>
                       <th>Description</th>
+                      <th>Example Values</th>
                       <th>Category</th>
                     </tr>
                   </tfoot>
@@ -260,144 +262,168 @@
                       <td> S01, S04, S05, S08 </td>
                       <td> Adequacy criterion </td>
                       <td> Test case generation and stopping rule </td> 
+                      <td> Execution trace, reachability testing, threading schedules, location pairs  -- family (data flow, flow control, etc.) and technique (sentence coverage, etc.) </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S02, S04, S05, S08 </td>
                       <td> Automation </td>
                       <td> Part of the technique automated by the tool </td>  
+                      <td> (flow chart, mutant generation, test case generation, etc.) </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S02, S04, S05 </td>
                       <td> Benefits </td>
                       <td> Benefits of using the technique </td>  
+                      <td> [sentence or paragraph explaining the benefits of the technique] </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S02, S04 </td>  
                       <td> Completeness </td> 
                       <td> Coverage provided by the set of cases </td>  
+                      <td> Percentage </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05, S08 </td>
                       <td> Comprehensibility </td>
                       <td> Whether or not the technique is easy to understand </td> 
+                      <td> (high, medium, low) </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05 </td>  
                       <td> Cost of application </td>  
                       <td> How much effort it takes to apply the technique </td>  
+                      <td> (high, medium, low) </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05 </td>  
                       <td> Dependencies </td> 
                       <td> Relationships of one technique with another </td>  
+                      <td> Two values: [technique] and dependency type (should be applied before, after, should never be used with, etc.) </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05 </td>
                       <td> Effectiveness </td>  
                       <td> What capability the set of cases should have to detect defects </td> 
+                      <td> Percentage </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05 </td>  
                       <td> Element </td>
                       <td> Elements of the system on which the test acts </td>  
+                      <td> (function, procedure, system, subsystem, etc.) </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S02, S03 </td>
                       <td> Experimental Evaluation </td>  
                       <td> Indication of the experimental strategy and evidence obtained in the evaluation </td>  
+                      <td> Case study, controlled experiment </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S02, S03, S04, S05 </td>
                       <td> Inputs </td>
                       <td> Inputs required to apply the technique </td> 
+                      <td> Code, requirements, models, bytecode </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05 </td>
                       <td> Number of generated cases </td>
                       <td> Number of cases generated per software size unit </td> 
+                      <td> Formula </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S02, S03 </td> 
                       <td> Outputs </td>
                       <td> Information about the outputs (artifacts) produced by the approach </td>
+                      <td> Percentage of coverage, execution time, bugs revealed </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S04 </td>
                       <td> Precision </td>
                       <td> How many repeated test cases the technique generates </td> 
+                      <td> Percentage </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S02, S04, S05, S08 </td>
                       <td> Problems </td>
                       <td> Problems with using the technique </td>
+                      <td> [sentence or paragraph explaining the drawbacks of the technique] </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S04 </td>
                       <td> Purpose </td>  
                       <td> Type of evaluation and quality attribute to be tested in the system </td>  
+                      <td> Not informed in the original work </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S08 </td>
                       <td> Reusability of the test cases </td>  
                       <td> Indication about the reusability of test cases </td> 
+                      <td> Not informed in the original work </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05 </td>  
                       <td> Sources of information </td> 
                       <td> Where to find information about the technique </td>  
+                      <td> (a person, a book, an article, an experiment, etc.) </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05 </td>
                       <td> Test data cost </td> 
                       <td> Cost of identifying the test data </td>  
+                      <td> (high, medium, low) </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S02, S03, S06, S07, S09 </td>
                       <td> Testing Level </td>
                       <td> The test levels, explored by the approach to test software behavior/structure </td>  
+                      <td> Unit, integration, system, acceptance, regression </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S08 </td>
                       <td> Time when the basic functionality is exposed </td> 
                       <td> Indication about the time when the basic functionality is exposed </td>
+                      <td> Not informed in the original work </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S02, S03 </td>
                       <td> Type of Analysis </td>
                       <td> Indication about the type of test analysis that the approach is able to support: static behavior (not influenced by user interaction) or dynamic (eg, pages that can be dynamically constructed in response to user input) </td> 
+                      <td> Static, dynamic </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S02, S03, S04, S05, S06, S09 </td>
                       <td> Type of faults identified </td>
                       <td> Type of faults that approach can help reveal </td>
+                      <td> Data race, deadlock, atomicity violation, livelock -- Navigational Error, Interface Error, Data type wrong </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S02, S03, S06, S07, S09 </td>  
                       <td> Type of Testing Technique </td>  
                       <td> Indication of the test technique that the approach supports </td>  
+                      <td> Structural, functional, fault-based, model-based </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                   </tbody>

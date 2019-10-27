@@ -260,6 +260,7 @@
                       <th>Study Reference</th>
                       <th>Attribute</th>
                       <th>Description</th>
+                      <th>Example Values</th>
                       <th>Category</th>
                     </tr>
                   </thead>
@@ -268,6 +269,7 @@
                       <th>Study Reference</th>
                       <th>Attribute</th>
                       <th>Description</th>
+                      <th>Example Values</th>
                       <th>Category</th>
                     </tr>
                   </tfoot>
@@ -276,366 +278,427 @@
                       <td> S01, S04, S05, S08 </td>
                       <td> Adequacy criterion </td>
                       <td> Test case generation and stopping rule </td> 
+                      <td> Execution trace, reachability testing, threading schedules, location pairs  -- family (data flow, flow control, etc.) and technique (sentence coverage, etc.) </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S10 </td>  
                       <td> Algorithm </td>
-                      <td> Incorrect or missing implementation that can be fixed by reimplementing an algorithm or data structures </td>  
+                      <td> Incorrect or missing implementation that can be fixed by reimplementing an algorithm or data structures </td> 
+                      <td> Not informed in the original work </td> 
                       <td> ODC Faults </td>
                     </tr>
                     <tr>
                       <td> S02 </td>
                       <td> Application Category </td>
                       <td> Information on what type of application the approach can be used </td>
+                      <td> Unspecified, Rich Internet Application (RIAS), Web Services, Workflow, Collaboration, knowledge-based, ubiquitous, e-commerce, e-government, e-learning </td>
                       <td> Web Applications </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05 </td>
                       <td> Aspect </td>
                       <td> Functionality of the system to be tested </td>
+                      <td> (communications, database, GUI_s, etc.) </td>
                       <td> Software Project </td>
                     </tr>
                     <tr>
                       <td> S10 </td>
                       <td> Assignment </td>
                       <td> Values assigned incorrectly or not assigned </td>  
+                      <td> Not informed in the original work </td>
                       <td> ODC Faults </td>
                     </tr>
                     <tr>
                       <td> S01, S02, S04, S05, S08 </td>
                       <td> Automation </td>
                       <td> Part of the technique automated by the tool </td>  
+                      <td> (flow chart, mutant generation, test case generation, etc.) </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S06, S09 </td>
                       <td> Behavioural/Structural Model provided </td>  
                       <td> Indicates the models proposed in scientific research </td> 
+                      <td> Use Case, Activity, Statechart, Classes Diagram, Collaboration Diagram </td>
                       <td> Model-Based Testing </td>
                     </tr>
                     <tr>
                       <td> S01, S02, S04, S05 </td>
                       <td> Benefits </td>
                       <td> Benefits of using the technique </td>  
+                      <td> [sentence or paragraph explaining the benefits of the technique] </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S10 </td>
                       <td> Build/package/merge </td>  
                       <td> Describe mistakes in library systems, management of changes, or version control </td> 
+                      <td> Not informed in the original work </td>
                       <td> ODC Faults </td>
                     </tr>
                     <tr>
                       <td> S10 </td>
                       <td> Checking </td> 
                       <td> Missing or incorrect validation of data or incorrect loop or conditional statements </td>  
+                      <td> Not informed in the original work </td>
                       <td> ODC Faults </td>
                     </tr>
                     <tr>
                       <td> S01, S02, S04 </td>  
                       <td> Completeness </td> 
                       <td> Coverage provided by the set of cases </td>  
+                      <td> Percentage </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05, S08 </td>
                       <td> Comprehensibility </td>
                       <td> Whether or not the technique is easy to understand </td> 
+                      <td> (high, medium, low) </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S03 </td>  
                       <td> Context/Objective of the concurrent software </td> 
                       <td> Description of the context/objective of the software </td> 
+                      <td> HPC, distributed applications, mobile, embedded </td>
                       <td> Concurrent Software </td>
                     </tr>
                     <tr>
                       <td> S01, S03, S04, S05 </td>
                       <td> Cost </td>
                       <td> Cost of tool purchase and maintenance </td>  
+                      <td> Academic, shareware, open source -- Two values: [purchase cost] and [maintenance] </td>
                       <td> Tools </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05 </td>  
                       <td> Cost of application </td>  
                       <td> How much effort it takes to apply the technique </td>  
+                      <td> (high, medium, low) </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05 </td>  
                       <td> Dependencies </td> 
                       <td> Relationships of one technique with another </td>  
+                      <td> Two values: [technique] and dependency type (should be applied before, after, should never be used with, etc.) </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S02, S04 </td>  
                       <td> Development method </td> 
                       <td> Development method or life cycle to which it is linked </td> 
+                      <td> (prototyping, reuse, waterfall, knowledge-based system, etc.) </td>
                       <td> Software Project </td>
                     </tr>
                     <tr>
                       <td> S03, S06, S09 </td>  
                       <td> Development paradigm </td> 
                       <td> Indicates the delopment paradigm used in the software project </td>  
+                      <td> Shared memory, message passing, hybrid -- Object oriented </td>
                       <td> Concurrent Software </td>
                     </tr>
                     <tr>
                       <td> S10 </td>  
                       <td> Documentation </td>  
                       <td> This defect type affects both publication and maintenance notes, it has a significant meaning only in the early stages of software life cycle (specification and high level design) </td>  
+                      <td> Not informed in the original work </td>
                       <td> ODC Faults </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05 </td>
                       <td> Effectiveness </td>  
                       <td> What capability the set of cases should have to detect defects </td> 
+                      <td> Percentage </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S02, S08 </td>
                       <td> Effort required </td> 
                       <td> Indication of the effort, time and cost to execute the tasks in using the </td>
+                      <td> Not informed in the original work </td>
                       <td> Test Team </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05 </td>  
                       <td> Element </td>
                       <td> Elements of the system on which the test acts </td>  
+                      <td> (function, procedure, system, subsystem, etc.) </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05, S07 </td> 
                       <td> Environment </td>
                       <td> Platform (sw and hw) and programming language with which the tool operates </td> 
+                      <td> Linux, Windows, Android -- Three values: [SW requirements], [HW requirements] and [programming language] </td>
                       <td> Software Project </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05, S07, S09 </td>  
                       <td> Experience </td>
                       <td> Experience required to be able to apply the technique </td>  
+                      <td> (tool understanding, etc.) </td>
                       <td> Test Team </td>
                     </tr>
                     <tr>
                       <td> S02, S03 </td>
                       <td> Experimental Evaluation </td>  
                       <td> Indication of the experimental strategy and evidence obtained in the evaluation </td>  
+                      <td> Case study, controlled experiment </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S10 </td>  
                       <td> Function </td> 
                       <td> Affects a sizable amount of code and refers to capability that is either implemented incorrectly or not </td>  
+                      <td> Not informed in the original work </td>
                       <td> ODC Faults </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05 </td>
                       <td> Identifier </td>
                       <td> Name of the tool and the manufacturer </td>  
+                      <td> Two values: [tool name] and [company name] </td>
                       <td> Tools </td>
                     </tr>
                     <tr>
                       <td> S01, S02, S03, S04, S05 </td>
                       <td> Inputs </td>
                       <td> Inputs required to apply the technique </td> 
+                      <td> Code, requirements, models, bytecode </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S10 </td>  
                       <td> Interface </td>
                       <td> Errors in the interaction among components, modules, call statements, parameters list </td>  
+                      <td> Not informed in the original work </td>
                       <td> ODC Faults </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05 </td>
                       <td> Knowledge </td>
                       <td> Knowledge required to be able to apply the technique </td> 
+                      <td> (cyclomatic complexity, flow charts, etc.) </td>
                       <td> Test Team </td>
                     </tr>
                     <tr>
                       <td> S03 </td>
                       <td> Mechanism that execute different synchronization sequences </td>
                       <td> Approach that forces the execution of different synchronization sequences </td>
+                      <td> Reachability testing, noise injection </td>
                       <td> Concurrent Software </td>
                     </tr>
                     <tr>
                       <td> S06, S07, S09 </td>
                       <td> Modelling Technology </td>
                       <td> Indication of the technology used for modelling </td>
+                      <td> ALTS, ASM, CO-OPN/2, FSM, LTS, LUSTRE, MSC, MCML, OCL, TSL, UML, XML, amongst others </td>
                       <td> Model-Based Testing </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05 </td>
                       <td> Number of generated cases </td>
                       <td> Number of cases generated per software size unit </td> 
+                      <td> Formula </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05, S08 </td>
                       <td> Opinion </td>
                       <td> General opinion about the technique after having used it </td> 
+                      <td> [sentence or paragraph explaining the opinion] </td>
                       <td> Test Team </td>
                     </tr>
                     <tr>
                       <td> S02, S03 </td> 
                       <td> Outputs </td>
                       <td> Information about the outputs (artifacts) produced by the approach </td>
+                      <td> Percentage of coverage, execution time, bugs revealed </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05 </td>
                       <td> Personnel  </td>
                       <td> Personnel who worked on earlier projects </td> 
+                      <td> [people’s names] </td>
                       <td> Test Team </td>
                     </tr>
                     <tr>
                       <td> S01, S04 </td>
                       <td> Precision </td>
                       <td> How many repeated test cases the technique generates </td> 
+                      <td> Percentage </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S02, S04, S05, S08 </td>
                       <td> Problems </td>
                       <td> Problems with using the technique </td>
+                      <td> [sentence or paragraph explaining the drawbacks of the technique] </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S03 </td>
                       <td> Program representation </td>  
                       <td> Strategie to capture relevant information for testing </td>
+                      <td> State space graph, petri nets, prediction model </td>
                       <td> Concurrent Software </td>
                     </tr>
                     <tr>
                       <td> S01, S03, S04, S05, S06, S07, S09 </td>
                       <td> Programming language </td>
                       <td> Programming language with which it can be used </td> 
+                      <td> Java, C/MPI, C/Phtreads, Fortran, Ada, Erlang -- (structured, functional, logical, real time, concurrent, etc.) </td>
                       <td> Software Project </td>
                     </tr>
                     <tr>
                       <td> S04 </td>
                       <td> Purpose </td>  
                       <td> Type of evaluation and quality attribute to be tested in the system </td>  
+                      <td> Not informed in the original work </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S02, S04, S05 </td>
                       <td> Reference projects </td>
                       <td> Earlier projects in which the technique has been used </td>  
+                      <td> [project name] </td>
                       <td> Software Project </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05 </td>
                       <td> Repeatability </td>  
                       <td> Whether two people generate the same test cases </td>  
+                      <td> (yes, no) </td>
                       <td> Test Team </td>
                     </tr>
                     <tr>
                       <td> S08 </td>
                       <td> Reusability of the test cases </td>  
                       <td> Indication about the reusability of test cases </td> 
+                      <td> Not informed in the original work </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05 </td>  
                       <td> Size </td>
                       <td> Size that the software should have to be able to use the technique </td>
+                      <td> (number in KLOC) </td>
                       <td> Software Project </td>
                     </tr>
                     <tr>
                       <td> S04 </td>  
                       <td> Software architecture </td>  
                       <td> Development paradigm to which it is linked </td>
+                      <td> Not informed in the original work </td>
                       <td> Software Project </td>
                     </tr>
                     <tr>
                       <td> S02, S03, S06, S07, S09 </td>
                       <td> Software Quality Characteristics </td> 
                       <td> Indication of the set of quality characteristics that the approach is capable of evaluating </td>  
+                      <td> Effectiveness, efficiency, performance, scalability, overhead </td>
                       <td> Software Project </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05 </td>
                       <td> Software type </td>  
                       <td> Type of software that can be tested using the technique </td>  
+                      <td> (real time, batch, interactive, expert system, etc.) </td>
                       <td> Software Project </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05 </td>  
                       <td> Sources of information </td> 
                       <td> Where to find information about the technique </td>  
+                      <td> (a person, a book, an article, an experiment, etc.) </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05 </td>
                       <td> Support </td>
                       <td> Support provided by the tool manufacturer </td>  
+                      <td> (24-hour hotline, technical assistance, etc.) </td>
                       <td> Tools </td>
                     </tr>
                     <tr>
                       <td> S03 </td>  
                       <td> Technique that treated the state explosion problem </td>
                       <td> Indicates the technique that treated the problem of state explosion </td>  
+                      <td> Dynamic partial order reduction, fitness function, preemption bounding </td>
                       <td> Concurrent Software </td>
                     </tr>
                     <tr>
                       <td> S01, S04, S05 </td>
                       <td> Test data cost </td> 
                       <td> Cost of identifying the test data </td>  
+                      <td> (high, medium, low) </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S02, S03, S06, S07, S09 </td>
                       <td> Testing Level </td>
                       <td> The test levels, explored by the approach to test software behavior/structure </td>  
+                      <td> Unit, integration, system, acceptance, regression </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S08 </td>
                       <td> Time when the basic functionality is exposed </td> 
                       <td> Indication about the time when the basic functionality is exposed </td>
+                      <td> Not informed in the original work </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S10 </td>  
                       <td> Timing/serialization </td> 
                       <td> Missing or incorrect serialization of shared resources </td> 
+                      <td> Not informed in the original work </td>
                       <td> ODC Faults </td>
                     </tr>
                     <tr>
                       <td> S01, S02, S03, S04, S05, S06, S07, S09 </td> 
                       <td> Tools used </td>
                       <td> Tools used in earlier projects </td>
+                      <td> Contest, CHESS, JavaPathFinder - [tool name] </td>
                       <td> Tools </td>
                     </tr>
                     <tr>
                       <td> S02, S03 </td>
                       <td> Type of Analysis </td>
                       <td> Indication about the type of test analysis that the approach is able to support: static behavior (not influenced by user interaction) or dynamic (eg, pages that can be dynamically constructed in response to user input) </td> 
+                      <td> Static, dynamic </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S01, S02, S03, S04, S05, S06, S09 </td>
                       <td> Type of faults identified </td>
                       <td> Type of faults that approach can help reveal </td>
+                      <td> Data race, deadlock, atomicity violation, livelock -- Navigational Error, Interface Error, Data type wrong </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S03 </td>  
                       <td> Type of replay mechanism </td> 
                       <td> Indication about the type of replay mechanism used for the re-execution of the program </td> 
+                      <td> Monitoring, regression scheduler, record-replay, SYN-sequences </td>
                       <td> Concurrent Software </td>
                     </tr>
                     <tr>
                       <td> S02, S03, S06, S07, S09 </td>  
                       <td> Type of Testing Technique </td>  
                       <td> Indication of the test technique that the approach supports </td>  
+                      <td> Structural, functional, fault-based, model-based </td>
                       <td> General Testing Characteristics </td>
                     </tr>
                     <tr>
                       <td> S02 </td>
                       <td> Unity </td>  
                       <td> Describes the unit of the application in which the approach works, such as Web pages, Web page components, links, and others </td> 
+                      <td> [optional text] </td>
                       <td> Web Applications </td>
                     </tr>
                   </tbody>
